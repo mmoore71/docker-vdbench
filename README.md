@@ -21,9 +21,9 @@ Download the version of vdbench that you want to use (eg. vdbench50407.zip)
 > rm -rf vdbench
 
 > cd vdbench-interactive
-docker-build --rm -t docker-vdbench:vdbench-interactive
+> docker build --rm -t docker-vdbench:vdbench-interactive .
 > cd ../vdbench-master
-> docker build --rm -t docker-vdbench:vdbench-master
+> docker build --rm -t docker-vdbench:vdbench-master .
 > cd ..
 
 > docker images
