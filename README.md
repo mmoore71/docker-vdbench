@@ -51,7 +51,7 @@ If you don't want to build the images I have posted them on dockerhub.
 ```
 > docker pull mmoore71/docker-vdbench:vdbench-interactive
 
-> docker pull mmoore71/> docker-vdbench:vdbench-master 
+> docker pull mmoore71/docker-vdbench:vdbench-master 
 
 > docker images
 REPOSITORY                TAG                   IMAGE ID       CREATED         SIZE
